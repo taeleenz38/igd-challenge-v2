@@ -12,3 +12,6 @@ dapp that allows connected users to issue invoices as NFTs on the Sepolia testne
 8. Once the transaction has been confirmed on the blockchain, the invoice details will be displayed below alongside the tx link
 9. The details of the invoice can be accessed directly on etherscan as well using the tokenID, which will be the name of the NFT (e.g. InvoiceToken #11)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- I was looking into storing the NFT metadata on IPFS using Pinata and would have implemented the file upload (attach document) if I had more time to work on the project
