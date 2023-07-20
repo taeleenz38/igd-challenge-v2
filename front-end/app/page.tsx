@@ -13,9 +13,6 @@ export default function Home() {
   if (isConnected) {
     return (
       <main className="flex min-h-screen flex-col items-center  bg-white">
-        <Head>
-          <title>Wagmi Invoices</title>
-        </Head>
         <Navbar />
         <MintInvoice />
       </main>
@@ -24,9 +21,6 @@ export default function Home() {
   else {
     return (
       <main className="flex min-h-screen flex-col items-center bg-white">
-        <Head>
-          <title>Wagmi Invoices</title>
-        </Head>
         <Navbar />
         <Greeting />
       </main>
